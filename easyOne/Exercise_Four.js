@@ -10,3 +10,4 @@ let areaFeet = (areaMeters * 10.7639);
 console.log(`The area of the room is ${areaMeters.toFixed(2)} square meters (${areaFeet.toFixed(2)} square fee)`);
 
 
+ 

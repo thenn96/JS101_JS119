@@ -1,0 +1,83 @@
+A function that returns the sum of two numbers. 
+
+START
+
+SET sum = number1 + number 2 
+
+Print sum 
+
+END 
+
+
+a function that takes an array of strings, and returns a string that is all those strings concatenated together
+
+START 
+
+#Given an array to join together as a string. 
+
+Return array as a string using array.join
+
+END
+
+a method that takes an array of integers, 
+and returns a new array with every other element from the original array, starting with the first element.
+ For instance: everyOther([1,4,7,2,5]); // => [1,7,5]
+
+START
+
+#Given array to form another array with every other number of that array 
+
+SET everyOther = []
+SET iterator = 0
+
+WHILE Iterator <= length of given array 
+	SET array space into everyOther with .push 
+	SET iterator to increase by 2 
+
+RETURN everyOther array
+
+a function that determines the index of the 3rd occurrence of a given character in a string. 
+For instance, if the given character is 'x' and the string is 'axbxcdxex', the function should return 6 (the index of the 3rd 'x').
+ If the given character does not occur at least 3 times, return null.
+
+START 
+
+SET Function to ask for the sting and character (char) you are looking for 
+SET count = 0 
+SET i = 0
+
+WHile i < char.length
+	IF char === current letter
+		count = count +1
+	IF count > 3 
+	PRINT i
+	ELSE 
+	PRINT null
+
+END
+
+#a function that takes two arrays of numbers and returns the result of merging the arrays. 
+The elements of the first array should become the elements at the even indexes of the returned array, 
+while the elements of the second array should become the elements at the odd indexes.
+
+START
+
+SET funtion to take two array: arrayOne arrayTwo
+
+SET mergedArray = []
+SET inicatorOne = 0
+SET indicatorTwo = 1
+
+WHILE indicatorOne < arrayOne.length 
+	mergedArray[inidicaterOne] = arrayOne[indicatorONE]
+	indicatorONE = indicatorOne + 2
+	
+
+WHILE indicatorTwo < arrayTwo.length
+	mergedArray[indicatorTwo] = arrayTwo[indicatorTwo]
+	indicatorTwo = indicatoeTwo + 2
+
+PRINT mergedARRAY 
+
+END 
+
